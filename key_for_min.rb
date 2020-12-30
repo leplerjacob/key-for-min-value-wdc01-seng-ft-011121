@@ -7,7 +7,7 @@ def key_for_min_value(name_hash)
   if name_hash.length != 0
     name_hash.each do |obj|
       if min_value > obj[1]
-        min_value = obj[1]
+        min_value = obj[0]
       end
     end
   return min_value
