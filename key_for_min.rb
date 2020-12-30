@@ -5,7 +5,7 @@ require 'pry'
 def key_for_min_value(name_hash)
   if name_hash.length != 0
     name_hash.each_with_index do |obj, i|
-      puts obj,i
+      puts "object: #{obj}, i: #{i}"
     end
   return min_value
   else 
