@@ -5,8 +5,8 @@ require 'pry'
 def key_for_min_value(name_hash)
     min_value = name_hash.values[0]
   if name_hash.length != 0
-    name_hash.each do |key, value|
-      puts 
+    name_hash.each do
+      puts hash
       if min_value > value
         min_value = key
       end
