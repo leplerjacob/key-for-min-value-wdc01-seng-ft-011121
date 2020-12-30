@@ -3,6 +3,7 @@
 
 def key_for_min_value(name_hash)
   if name_hash.length != 0
+    min_value = ''
     name_hash.each do |el, index|
       puts el, index
     end
