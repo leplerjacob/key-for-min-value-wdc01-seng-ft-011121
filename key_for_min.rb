@@ -5,6 +5,7 @@ require 'pry'
 def key_for_min_value(name_hash)
   min_value = name_hash.first[1]
   key_to_return = name_hash.first[0]
+  puts name_hash.length
   if name_hash.length != 0
     name_hash.each do |obj|
       if min_value > obj[1]
