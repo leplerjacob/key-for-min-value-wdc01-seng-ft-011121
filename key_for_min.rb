@@ -10,8 +10,8 @@ def key_for_min_value(name_hash)
         min_value = obj[1]
       end
     end
+  return min_value
   else 
     return nil
   end
-  return min_value
 end
