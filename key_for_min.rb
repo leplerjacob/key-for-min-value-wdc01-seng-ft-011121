@@ -3,7 +3,6 @@
 require 'pry'
 
 def key_for_min_value(name_hash)
-  puts name_hash.first
     min_value = name_have.values[0]
   if name_hash.length != 0
     name_hash.each do |key, value|
