@@ -3,9 +3,11 @@
 require 'pry'
 
 def key_for_min_value(name_hash)
+  min_value = name_hash.first[1]
   if name_hash.length != 0
-    name_hash.each_with_index do |obj, i|
-      puts "object: #{obj}, i: #{i}"
+    name_hash.each do |obj|
+      if min_value > obj[1]
+        min_value = obj[1]
     end
   return min_value
   else 
