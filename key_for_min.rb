@@ -3,8 +3,8 @@
 require 'pry'
 
 def key_for_min_value(name_hash)
-  puts name_hash[0][0]
   binding.pry
+  puts name_hash[0][0]
     min_value = name_have[0][0]
   if name_hash.length != 0
     name_hash.each do |key, value|
