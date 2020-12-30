@@ -7,9 +7,9 @@ def key_for_min_value(name_hash)
   if name_hash.length != 0
     name_hash.each do
       puts hash
-      if min_value > value
-        min_value = key
-      end
+      # if min_value > value
+      #   min_value = key
+      # end
     end
   return min_value
   else 
